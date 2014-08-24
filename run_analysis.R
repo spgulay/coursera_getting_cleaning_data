@@ -1,4 +1,4 @@
-# These comments are re-written in the README.md of the github repository
+# These comments are re-written in the README.md of the github repository 
 
 # Set the working directory
 setwd("C:/Users/Pelin/Documents/R class/UCI HAR Dataset/");

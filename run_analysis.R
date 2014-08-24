@@ -66,4 +66,4 @@ finalData1 <- finalData[,names(finalData) !="activityType"]
 tidyData <- aggregate(finalData1[,names(finalData1) != c('activityId','subjectId')],by=list(activityId=finalData1$activityId,subjectId = finalData1$subjectId),mean)
 # put back the descriptive activity labels (added to the end) & print the tidy dataset
 tidyData <- merge(tidyData,activityLabels,by='activityId',all.x=TRUE)
-write.table(tidyData,"./tidyData.txt",row.names=FALSE,sep='\t')
+write.table(tidyData,"./tidyData.txt",row.names=FALSE,sep="\t")
